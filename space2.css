@@ -1,0 +1,118 @@
+/*  Kevin Kraaijveld CSS Space1
+============================================================================
+
+1. Algemene CSS
+2. CONTENT BLOCKS
+3. Overige CSS
+
+============================================================================ */
+
+
+/* 1. Algemene CSS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+		body {
+			background-image: url(bg.png);
+			font-family: Tahoma;
+		}
+		h1{
+			text-align: center;
+			margin: 22px 0 23px 0;
+		}
+		h2{
+    font-size: 24px;
+		line-height: 33px;
+		}
+		h3{
+			line-height: 32px;
+    font-size: 18.5px;
+		}
+		p{
+			padding: 5px 0 8px 0;
+	    margin-top: 24px;
+		}
+		a{
+			text-decoration: none;
+			color: #000;
+		}
+
+		/* 2. CONTENT BLOCKS
+		++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+		/*    Main
+		---------------------------------------------------------------------------- */
+		#frame {
+			background-color: rgba(255,200,200,0.3);
+	    width: 1001px;
+			padding: 10px;
+	    margin-left: 141px;
+		}
+
+		header nav ul {
+			list-style-type: none;
+			background-color: rgba(255,255,200,0.3);
+			margin-top: 0px;
+			margin: 0 0 15px 0;
+	    width: 998px;
+			padding: 0 0 0 3px;
+			display: flex;
+		}
+
+		#content {
+			display: flex;
+		}
+
+		nav li {
+			line-height: 24px;
+			padding: 8px 10px 9px 10px;
+			font-weight: bolder;
+		}
+
+		nav li a {
+		}
+
+		main{
+			border: 1px black solid;
+			background-color: rgba(200,200,255,0.3);
+			width: 690px;
+	    margin-left: 1px;
+			padding-top: 9px;
+		}
+
+		aside{
+			border: 1px black solid;
+			background-color: rgba(200,255,200,0.3);
+			flex:1;
+			padding-top: 9px;
+	    padding-bottom: 27px;
+		}
+
+		body article {
+			background-color: rgba(200,200,200,0.6);
+			margin: 0 8px 0 8px;
+			height: 80px;
+		}
+		body article p{
+			    padding: 0px 0 8px 0;
+		}
+		aside article{
+			height: 79px;
+			margin: 0 8px 0 9px;
+		}
+		aside article p{
+			line-height: 17px;
+		}
+		header {
+		}
+
+		footer {
+			background-color: rgba(255,255,200,0.3);
+			text-align: center;
+			font-weight: bolder;
+		}
+
+		/* 3. Overige CSS
+		++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+		/*Made by Kevin Kraaijveld*/
