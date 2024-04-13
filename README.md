@@ -33,3 +33,7 @@ De twee pagina's moet aan de volgende technische eisen voldoen:
 
 ### Tip
 * Om de webpagina exact overeen te laten komen met het voorbeeld kan het handig zijn om het browserscherm te versmallen tot de breedte van het voorbeeld.
+
+### Bekijk opdracht
+(Layout-1)[https://www.kevii.nl/opdrachten/03-grid/space1.html]
+(Layout-2)[https://www.kevii.nl/opdrachten/03-grid/space2.html]
